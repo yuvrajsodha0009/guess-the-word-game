@@ -1,26 +1,24 @@
---Guess The Word Game--
+# Guess The Word Game 🐍  
 
-A modern take on the classic Hangman game, built with Python.
-This version comes with a clean Tkinter-based graphical interface and an integrated SQLite database to keep track of player stats like wins, losses, and overall win rate.
+A modern take on the classic Hangman game, built with **Python**.  
+This version comes with a clean Tkinter-based graphical interface and an integrated SQLite database to keep track of player stats like wins, losses, and overall win rate.  
 
---Installation--
+---
 
-No external dependencies are required since the project uses Python’s built-in libraries (tkinter, sqlite3).
+## Installation  
 
-Clone the repository:
+No external dependencies are required since the project uses Python’s built-in libraries (`tkinter`, `sqlite3`).  
 
-git clone https://github.com/your-username/your-repository-name.git
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/your-username/your-repository-name.git
+   
+2. **Navigate to the project folder:**  
+   ```sh
+   cd your-repository-name
+   
+3. **Start the Game:**  
+   ```sh
+  python "Guess The Word Game.py
 
 
-Navigate to the project folder:
-
-cd your-repository-name
-
---How to Play--
-
-Run the main script to start the game:
-
-python "Guess The Word Game.py"
-
-
-Use the on-screen interface to guess letters, track your progress, and see your stats update automatically.
