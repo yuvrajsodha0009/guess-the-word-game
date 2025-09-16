@@ -11,12 +11,12 @@ No external dependencies are required since the project uses Python’s built-in
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/your-repository-name.git
+    git clone https://github.com/yuvrajsodha0009/guess-the-word-game
     ```
 
 2.  **Navigate to the project folder:**
     ```sh
-    cd your-repository-name
+    cd guess-the-word-game
     ```
 
 3.  **Start the Game:**
