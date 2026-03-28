@@ -1,27 +1,74 @@
-# Guess The Word Game  
+# Guess The Word Game
 
-A modern take on the classic Hangman game, built with **Python**.  
-This version comes with a clean Tkinter-based graphical interface and an integrated SQLite database to keep track of player stats like wins, losses, and overall win rate.  
+Modern Hangman game built with Python, Tkinter, and SQLite.
 
----
+## New Upgrades
 
-## Installation  
+- Added secure authentication flow with Register and Login
+- Enforced unique usernames (username cannot be reused)
+- Added password-based login with hashed password storage
+- Added logout flow to return to login screen without opening extra windows
+- Redesigned UI with a larger default window and modern color theme
+- Added difficulty levels: Easy, Medium, Hard
+- Added word categories and smarter word selection
+- Added hint system with attempt penalty
+- Added live timer, score, and streak tracking
+- Added leaderboard and recent games panel
+- Auto-loads a new word after every win or loss
 
-No external dependencies are required since the project uses Python’s built-in libraries (`tkinter`, `sqlite3`).  
+## Features
 
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/yuvrajsodha0009/guess-the-word-game
-    ```
+- Tkinter GUI-based interactive Hangman gameplay
+- SQLite persistence for players and game history
+- Win/loss tracking and win-rate calculation
+- Real-time player stats panel
+- Top-player leaderboard
 
-2.  **Navigate to the project folder:**
-    ```sh
-    cd guess-the-word-game
-    ```
+## Tech Stack
 
-3.  **Start the Game:**
-    ```sh
-    python "Guess The Word Game.py"
-    ```
+- Python 3
+- Tkinter
+- SQLite3
 
+## Project Structure
 
+- Guess The Word Game.py: Main game with login, dashboard, and gameplay
+- pythondatabase.db: Local SQLite database (ignored in git)
+- .gitignore: Excludes local and generated files
+
+## Run Locally
+
+1. Clone repository
+
+```bash
+git clone https://github.com/yuvrajsodha0009/guess-the-word-game
+```
+
+2. Move into project folder
+
+```bash
+cd guess-the-word-game
+```
+
+3. Start the game
+
+```bash
+python "Guess The Word Game.py"
+```
+
+## Screenshots
+
+Login Screen:
+
+![Login Screen](screenshots/login-screen.png)
+
+Game Dashboard:
+
+![Game Dashboard](screenshots/game-dashboard.png)
+
+## Notes
+
+- Database files are intentionally ignored from version control.
+- If screenshots do not render, add image files at:
+  - screenshots/login-screen.png
+  - screenshots/game-dashboard.png
