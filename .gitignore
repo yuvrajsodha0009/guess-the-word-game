@@ -1,0 +1,44 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and runtime artifacts
+*.log
+*.pid
+*.seed
+*.out
+*.err
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checker and linter caches
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Non-core project files (not part of main game build)
+delete_data.py
+gtw2.py
+gtw3.py
