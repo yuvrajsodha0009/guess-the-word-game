@@ -66,9 +66,3 @@ Game Dashboard:
 
 ![Game Dashboard](screenshots/game-dashboard.png)
 
-## Notes
-
-- Database files are intentionally ignored from version control.
-- If screenshots do not render, add image files at:
-  - screenshots/login-screen.png
-  - screenshots/game-dashboard.png
